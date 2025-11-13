@@ -1,0 +1,16 @@
+# Build outputs
+.next/
+build/
+dist/
+out/
+coverage/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env*
+
+# Static assets
+public/

@@ -1,5 +1,5 @@
 {
-  "name": "wordgum-frontend",
+  "name": "wordbeetle-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,6 +21,11 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unicorn": "^62.0.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
