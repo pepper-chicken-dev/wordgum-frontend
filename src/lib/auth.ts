@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth';
+import Google from 'next-auth/providers/google';
 
-// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call
 export const { handlers, signIn, signOut, auth } = NextAuth({
-  providers: [],
+  providers: [Google],
 });
