@@ -1,4 +1,4 @@
-import { handlers } from '@/auth'; // Referring to the auth.ts we just created
+import { handlers } from '@/lib/auth';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 export const { GET, POST } = handlers;
