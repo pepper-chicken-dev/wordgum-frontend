@@ -8,7 +8,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   },
   callbacks: {
     jwt({ token, account }) {
-      if (account !== null && account !== undefined) {
+      if (account?.id_token !== undefined) {
         token.idToken = account.id_token;
       }
 
