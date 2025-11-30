@@ -1,10 +1,10 @@
-import { LoginForm } from '@/components/login-form';
+import { AuthForm } from '@/components/auth-form';
 
-export default function LoginPage() {
+export default function AuthPage() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-background via-secondary to-muted">
       <div className="w-full max-w-md">
-        <LoginForm />
+        <AuthForm />
       </div>
     </div>
   );

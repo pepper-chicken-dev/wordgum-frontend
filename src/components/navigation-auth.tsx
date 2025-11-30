@@ -12,7 +12,7 @@ export async function NavigationAuth() {
         <UserMenu session={session} />
       ) : (
         <Button asChild variant="ghost">
-          <Link href="/login">ログイン</Link>
+          <Link href="/auth">ログイン</Link>
         </Button>
       )}
     </>

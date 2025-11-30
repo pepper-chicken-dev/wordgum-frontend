@@ -9,7 +9,7 @@ import {
 import { signIn } from '@/lib/auth';
 import Image from 'next/image';
 
-export function LoginForm() {
+export function AuthForm() {
   return (
     <Card className="border-2 shadow-2xl">
       <CardHeader className="space-y-4 text-center pb-8">
@@ -27,7 +27,7 @@ export function LoginForm() {
             WordBeetle
           </CardTitle>
           <CardDescription className="text-base mt-3 text-balance">
-            あなたの語学学習をサポート
+            新規登録またはログイン
           </CardDescription>
         </div>
       </CardHeader>
@@ -67,7 +67,7 @@ export function LoginForm() {
                   fill="#EA4335"
                 />
               </svg>
-              Googleでログイン
+              Googleで続ける
             </Button>
           </form>
         </div>
